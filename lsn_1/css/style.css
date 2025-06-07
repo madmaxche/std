@@ -1,0 +1,52 @@
+/*  */
+@import url("reset.css");
+@import url("fonts.css");
+/*  */
+
+[class*="__container"] {
+	max-width: 1630px;
+	margin: 0px auto;
+	padding: 0% 15px;
+}
+.text {
+	line-height: 1.6;
+}
+.text__title {
+	font-size: 54px;
+	margin-bottom: 40px;
+}
+.text__description {
+	font-size: 24px;
+}
+.text__description{
+	margin-bottom: 20px;
+}
+.text *{
+	color: #000;
+}
+.text__red{
+	color: red;
+}
+.text__description.text__blue{
+	color: blue;
+}
+
+.text__brown,
+.text__yellow{
+	color: brown;
+}
+#green{
+	color: green;
+}
+.headerblock__text h1{
+	color: blue;
+}
+.text > p{
+	color: red;
+}
+.text__subblock ~ p{
+	color: green;
+}
+.text__subplus + p{
+	color: yellow;
+}
