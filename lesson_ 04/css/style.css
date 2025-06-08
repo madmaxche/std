@@ -1,0 +1,72 @@
+/* Підключення шрифтів та файлу обнулення стилів */
+@import url("reset.css");
+@import url("fonts.css");
+/* ----------------------------------------------*/
+
+.wrapper{
+	font-size: 24px;
+}
+.headerblock,
+.mainblock{
+	margin-bottom: 40px;
+}
+.headerblock__text {
+	font-family:'IT Gaby Play 2023', 'Oswald', sans-serif;
+	font-weight: 100;
+	font-size: 60px;
+}
+.mainblock__text {
+	font-family:'Holos';
+	font-weight: 900;
+	font-size: 60px;
+}
+.footerblock__text {
+	font-family:'Grunt Grotesk' ;
+	font-weight: 700;
+	font-size: 60px;
+}
+.text__body{
+	margin-bottom: 20px;
+}
+.headerblock .text__sublock{
+	font-family:'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 60px;
+}
+.mainblock .text__sublock{
+	font-family:'Chathura', sans-serif;
+	font-weight: 800;
+	font-size: 54px;
+}
+.footerblock__text .text__sublock{
+	font-family: "Explora";
+	text-align: center;
+}
+
+.text__bold{
+	font-weight: bold;
+}
+.text__decor{
+	text-decoration: line-through;
+}
+.text__shadow{
+	text-shadow: 0px 0px 10px #000000a2;
+}
+.text__transform{
+	text-transform: uppercase;
+}
+.text__line{
+	line-height: 2.66;
+}
+.text__indent{
+	text-indent: 40px;
+}
+.text__spacing{
+	letter-spacing: 10px;
+}
+.text__white{
+	white-space: nowrap;
+}
+.text__words{
+	word-spacing: 45px;
+}

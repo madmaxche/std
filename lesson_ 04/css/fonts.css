@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Explora&display=swap');
+
+@font-face {
+    font-family: 'Holos';
+    src: url('../fonts/Holos-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Grunt Grotesk';
+    src: url('../fonts/GruntGrotesk-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IT Gaby Play 2023';
+    src: url('../fonts/ITGabyPlay2023-Expanded.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
