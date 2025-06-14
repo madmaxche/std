@@ -1,0 +1,82 @@
+/* Підключення шрифтів та файлу обнулення стилів */
+@import url("reset.css");
+@import url("fonts.css");
+/* ----------------------------------------------*/
+
+.wrapper {
+	font-family:'Poppins', serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.78;
+		color: #6C757D;
+	font-size: 14px;
+}
+.wrapper__container {
+	max-width: 1270px;
+	margin: 0px auto;
+	padding: 0% 15px;
+}
+.article__body {
+	max-width: 816px;
+	margin: 0px auto;
+}
+.article__title {
+	line-height: 1.6;
+	color: #212529;
+	font-weight: bold;
+	margin-bottom: 40px;
+	font-size: 25px;
+}
+.article__body,
+.article__image {
+	margin-bottom: 80px;
+}
+.text__description:not(:last-child) {
+	margin-bottom: 40px;
+}
+.article__image img{
+	font-size: 0px;
+	max-width: 100%;
+}
+.article__image {
+	max-width: 100%;
+	text-align: center;
+	margin: 0px auto 80px;
+}
+.article__mw {
+	max-width: 605px;
+}
+.article__mr {
+	margin-right: 15px;
+}
+.main__container {
+	max-width: 1470px;
+	padding: 0% 15px;
+	margin: 0px auto;
+}
+.article__bt{
+	border-bottom: 2px solid #6C757D;
+}
+.article__op{
+	opacity: 0.5;
+	outline: 6px solid #212529;
+}
+.article__out img{
+	border: 3px solid #212529;
+}
+.article__br{
+	border-radius: 30px;
+	overflow: hidden;
+}
+.text__shd{
+	text-shadow: 0px 5px 5px #6c757d7c;
+}
+.text__bg{
+	background: #212529;
+	color: #fff;
+	border-radius: 16px;
+	padding: 15px;
+}
+.text__hd{
+	visibility: hidden;
+}
